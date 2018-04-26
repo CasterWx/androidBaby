@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">掌心baby</string>
+    <string name="title_home">首页</string>
+    <string name="title_baby">宝贝窗口</string>
+    <string name="title_house">家园圈</string>
+    <string name="title_me">我的</string>
+</resources>
