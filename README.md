@@ -1,10 +1,16 @@
 # androidBaby
+
 android项目：掌心baby
+
 开发工具 ：android studio
+
 1. 开发过程全部使用android6.0（API 23）进行编译，最小版本支持android 4.0 （API 14）。
+
 2. 项目APP所使用的技术包括以下模块
-  项目地址：https://github.com/CasterWx/androidBaby
-  功能实现：
+  
+  项目地址：https://github.com/CasterWx/androidBaby
+  
+  功能实现：
       1.功能引导页
 
       2.启动页
