@@ -3,71 +3,72 @@ android项目：掌心baby
 开发工具 ：android studio
 1. 开发过程全部使用android6.0（API 23）进行编译，最小版本支持android 4.0 （API 14）。
 2. 项目APP所使用的技术包括以下模块
-  
-  1.功能引导页
+  项目地址：https://github.com/CasterWx/androidBaby
+  功能实现：
+      1.功能引导页
 
-  2.启动页
+      2.启动页
 
-  3.登录注册（第三方登录）
+      3.登录注册（第三方登录）
 
-  4.忘记密码/修改密码
+      4.忘记密码/修改密码
 
-  5.网络请求（开源库）
+      5.网络请求（开源库）
 
-  6.数据解析
+      6.数据解析
 
-  7.数据存储（SQL/SP/File）
+      7.数据存储（SQL/SP/File）
 
-  8.图片异步加载（开源库）
+      8.图片异步加载（开源库）
 
-  9.清除缓存
+      9.清除缓存
 
-  10.账号绑定（同3）
+      10.账号绑定（同3）
 
-  11.家长社区功能
-  
-  12.关于我们
+      11.家长社区功能
 
-  13.正则表达式工具
+      12.关于我们
 
-  14.轮播bannner
+      13.正则表达式工具
 
-  15.加密（Base64/MD5）
+      14.轮播bannner
 
-  16.日志处理
+      15.加密（Base64/MD5）
 
-  17.圆形头像
+      16.日志处理
 
-  18.圆角图片
+      17.圆形头像
 
-  19.网络检查
+      18.圆角图片
 
-  20.下拉刷新（开源库）
+      19.网络检查
 
-  21.底部加载更多
+      20.下拉刷新（开源库）
 
-  22.跳转设置页
+      21.底部加载更多
 
-  23.通用json解析
+      22.跳转设置页
 
-  24.通用xml解析
+      23.通用json解析
 
-  25.下拉刷新最新解决方案（swipelayout+Reclerview）
+      24.通用xml解析
 
-  26.网络框架
+      25.下拉刷新最新解决方案（swipelayout+Reclerview）
 
-  27.通用adapter
+      26.网络框架
 
-  28.通用popupWindow
+      27.通用adapter
 
-  29.通用webview
+      28.通用popupWindow
 
-  30.gridView自适应
+      29.通用webview
 
-  31.ListView实现GridView两列效果
+      30.gridView自适应
 
-  32.解决GridView显示不全
+      31.ListView实现GridView两列效果
 
-  33.ScrollView嵌套ListView
-  
-  34.地区三级联动
+      32.解决GridView显示不全
+
+      33.ScrollView嵌套ListView
+
+      34.地区三级联动
