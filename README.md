@@ -44,59 +44,23 @@ android项目：掌心baby
       5.网络请求（开源库）
 	Volley库：扩展性强，基于接口设计。一定程度上符合http规范。返回包括ResponseCode 的处理，请求头的处理，缓存机制的支持。重试以及优先级的定义。2.3版本以上基于HttpUrlconnection。2.3版本以下是Httpclient。提供简单的图片加载工具。
       6.数据解析
-											
+      	使用gson解析
       7.数据存储（SQL/SP/File）
-
-      8.图片异步加载（开源库）
-
-      9.清除缓存
-
+	使用mysql云数据库进行数据存储，本地使用SQLite。
+      8.图片异步加载（开源库）
+	使用LRU缓存策略或懒加载缓存策略。
+      9.清除缓存
+	应用程序一般会产生以下几种类型的数据：
+	file-普通的文件存储
+	database-数据库文件（.db文件）
+	sharedPreference-配置数据(.xml文件）
+	cache-图片缓存文件 
       10.账号绑定（同3）
-
       11.家长社区功能
-
-      12.关于我们
-
-      13.正则表达式工具
-
-      14.轮播bannner
-
-      15.加密（Base64/MD5）
-
-      16.日志处理
-
-      17.圆形头像
-
-      18.圆角图片
-
-      19.网络检查
-
-      20.下拉刷新（开源库）
-
-      21.底部加载更多
-
-      22.跳转设置页
-
-      23.通用json解析
-
-      24.通用xml解析
-
-      25.下拉刷新最新解决方案（swipelayout+Reclerview）
-
-      26.网络框架
-
-      27.通用adapter
-
-      28.通用popupWindow
-
-      29.通用webview
-
-      30.gridView自适应
-
-      31.ListView实现GridView两列效果
-
-      32.解决GridView显示不全
-
-      33.ScrollView嵌套ListView
-
-      34.地区三级联动
+	 ListView布局和瀑布流实现。
+      12.关于我们
+	WebView访问官网。
+      13.正则表达式工具
+	 基于Java正则表达式实现
+      14.轮播bannner
+ 	 依赖Banner，打开bulid.gradle添加依赖包，添加compile project(':banner')。在AndroidManifest.xml清单文件中添加权限添加：<uses-permission android:name="android.permission.INTERNET" /> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />。在主布局文件文件中添加Banner，可以设置自定义属性。
